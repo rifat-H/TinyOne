@@ -4,11 +4,19 @@
 }
 
 body {
-  color: #010101;
-  font-family: HelveticaNeueBd;
+  color: #010101 !important;
+  font-family: 'PT Sans', sans-serif;
 }
 
 header {
   background: #ffd500;
+  padding: 30px 0;
+}
+
+.menu ul li a {
+  padding-right: 51px !important;
+  font-size: 21px;
+  font-weight: bold;
+  color: #010101 !important;
 }
 /*# sourceMappingURL=style.css.map */
