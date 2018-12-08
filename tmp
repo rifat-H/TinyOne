@@ -1,7 +1,5 @@
-->!trim all images
-->get all logo from fontawesome
--> get all color in sass
-->
+->get all color in sass
+->get all font in sass
 ->Make a gulp app to optimize images
 
 
@@ -20,3 +18,4 @@ fontawesome
 <i class="fab fa-google-plus-square"></i>
 <i class="fab fa-twitter-square"></i>
 <i class="fab fa-facebook"></i>
+<i class="far fa-bookmark"></i>
