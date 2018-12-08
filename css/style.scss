@@ -1,15 +1,24 @@
-// @import "variables.scss";
+@import "variables.scss";
 
-$yellow: #ffd500;
-$footerBgc: #232527;
-$menuFontColor: #010101;    //also in slider title(0), feature(0)
-$sliderTitle1: #313841; //title(1)
-$sliderTitle2: #555555; //title(2)
-$featureTitle: 
+// mixin start
 
 
-/* header start */
-header{
-    background-color: $yellow;
+
+// mixin end
+
+
+
+// global start
+body{
+    color: $mainFontColor;
+    font-family: HelveticaNeueBd;
 }
-/* header end */
+
+
+// global end
+
+// header start
+header{
+    background: $mainYellow;
+}
+// header end

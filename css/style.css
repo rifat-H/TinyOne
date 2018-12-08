@@ -1,7 +1,14 @@
-/* header start */
-header {
-  background-color: #ffd500;
+@font-face {
+  src: url(/fonts/helveticaneue/HelveticaNeueBd.ttf);
+  font-family: HelveticaNeueBd, sans-serif;
 }
 
-/* header end */
+body {
+  color: #010101;
+  font-family: HelveticaNeueBd;
+}
+
+header {
+  background: #ffd500;
+}
 /*# sourceMappingURL=style.css.map */

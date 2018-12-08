@@ -1,6 +1,12 @@
-->get all color in sass
-->get all font in sass
 ->Make a gulp app to optimize images
+
+
+fonts 
+========================
+PTsans: font-family: 'PT Sans', sans-serif;
+Ptsans bold: font-family: 'PT Sans', sans-serif;
+helvaticaneue bold: font-family: HelveticaNeueBd, sans-serif;
+
 
 
 fontawesome
