@@ -1,13 +1,18 @@
 @import "variables.scss";
 
 
+
+
 // global start
 body {
     color: $mainFontColor;
     font-family: 'PT Sans', sans-serif;
 }
 
-
+i{
+    font-size: 40px;
+    padding: 10px 0;
+}
 
 // global end
 
@@ -62,14 +67,7 @@ header {
         padding: 15px 0;
     }
 
-    ul {
-        li {
-            i {
-                font-size: 40px;
-                padding: 10px 0;
-            }
-        }
-    }
+
 }
 
 .cus_img {
@@ -80,3 +78,20 @@ header {
 }
 
 // slider end
+
+// features start
+
+.features{
+    padding: 80px 0;
+}
+
+.f_title {
+
+    h5{
+        margin-bottom: 80px;
+    }
+}
+
+
+// features end
+

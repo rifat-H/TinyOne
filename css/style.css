@@ -8,6 +8,11 @@ body {
   font-family: 'PT Sans', sans-serif;
 }
 
+i {
+  font-size: 40px;
+  padding: 10px 0;
+}
+
 header {
   background: #ffd500;
   padding: 30px 0;
@@ -44,8 +49,11 @@ header {
   padding: 15px 0;
 }
 
-.s_content ul li i {
-  font-size: 40px;
-  padding: 10px 0;
+.features {
+  padding: 80px 0;
+}
+
+.f_title h5 {
+  margin-bottom: 80px;
 }
 /*# sourceMappingURL=style.css.map */
