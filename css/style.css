@@ -19,4 +19,33 @@ header {
   font-weight: bold;
   color: #010101 !important;
 }
+
+.slider {
+  background-color: #ffd500;
+  padding-top: 25px;
+  padding-bottom: 65px;
+}
+
+.cus_indicator {
+  bottom: -60px;
+}
+
+.cus_indicator li {
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50% !important;
+}
+
+.s_content h2 {
+  margin-top: 64px;
+}
+
+.s_content h5 {
+  padding: 15px 0;
+}
+
+.s_content ul li i {
+  font-size: 40px;
+  padding: 10px 0;
+}
 /*# sourceMappingURL=style.css.map */

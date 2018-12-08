@@ -1,32 +1,82 @@
 @import "variables.scss";
 
-// mixin start
-
-
-
-// mixin end
-
-
 
 // global start
-body{
+body {
     color: $mainFontColor;
     font-family: 'PT Sans', sans-serif;
 }
 
 
+
 // global end
 
 // header start
-header{
+header {
     background: $mainYellow;
     padding: 30px 0;
 }
 
-.menu ul li a{
-    padding-right: 51px !important;
-    font-size: 21px;
-    font-weight: bold;
-    color: $mainFontColor;
+.menu {
+
+
+    ul {
+        li {
+            a {
+                padding-right: 51px !important;
+                font-size: 21px;
+                font-weight: bold;
+                color: $mainFontColor;
+            }
+        }
+    }
 }
+
 // header end
+
+// slider start
+
+.slider {
+    background-color: $mainYellow;
+    padding-top: 25px;
+    padding-bottom: 65px;
+}
+
+.cus_indicator {
+    bottom: -60px;
+
+    li {
+        width: 15px !important;
+        height: 15px !important;
+        border-radius: 50% !important;
+    }
+}
+
+.s_content {
+
+    h2 {
+        margin-top: 64px;
+    }
+
+    h5 {
+        padding: 15px 0;
+    }
+
+    ul {
+        li {
+            i {
+                font-size: 40px;
+                padding: 10px 0;
+            }
+        }
+    }
+}
+
+.cus_img {
+    img {
+        // margin-left: 30%;
+
+    }
+}
+
+// slider end
