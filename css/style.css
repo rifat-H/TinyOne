@@ -49,8 +49,20 @@ header {
   padding: 15px 0;
 }
 
+.s_content i:hover {
+  color: white;
+}
+
 .features {
   padding: 100px 0;
+}
+
+.features i {
+  color: black;
+}
+
+.features i:hover {
+  color: #ffd500;
 }
 
 .f_title h5 {
@@ -95,6 +107,10 @@ header {
 .cus_icon {
   color: #ffd500;
   padding: 43px 2%;
+}
+
+.cus_icon:hover {
+  color: white;
 }
 
 footer {

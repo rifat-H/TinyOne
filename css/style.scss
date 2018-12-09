@@ -69,6 +69,12 @@ header {
         padding: 15px 0;
     }
 
+    i {
+        &:hover {
+            color: white;
+        }
+    }
+
 
 }
 
@@ -79,6 +85,14 @@ header {
 
 .features {
     padding: 100px 0;
+
+    i {
+        color: black;
+
+        &:hover {
+            color: $mainYellow;
+        }
+    }
 }
 
 .f_title {
@@ -86,7 +100,9 @@ header {
     h5 {
         margin-bottom: 80px;
     }
+
 }
+
 
 // features end
 
@@ -113,36 +129,41 @@ header {
         font-weight: bold;
         padding: 12px 31%;
         margin-left: -32%;
-        &:hover{
+
+        &:hover {
             background-color: #ddbe23;
             border: none;
         }
     }
 
-    input{
+    input {
         padding: 24px 16px;
         width: 91%;
         margin-left: 7%;
     }
 }
 
-.cus_icon{
+.cus_icon {
     color: $mainYellow;
     padding: 43px 2%;
+    &:hover{
+        color: white;
+    }
 }
 
 // social end
 
 // footer start
 
-footer{
+footer {
     background-color: $footerBgc;
     padding-bottom: 50px;
 }
 
-a{
+a {
     color: white;
-    &:hover{
+
+    &:hover {
         color: $mainYellow;
         text-decoration: none;
     }
