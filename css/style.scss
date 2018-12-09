@@ -14,6 +14,8 @@ i{
     padding: 10px 0;
 }
 
+
+
 // global end
 
 // header start
@@ -82,7 +84,7 @@ header {
 // features start
 
 .features{
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 .f_title {
@@ -92,6 +94,26 @@ header {
     }
 }
 
-
 // features end
 
+// social start
+
+.social{
+    background-color: $footerBgc;
+    padding: 50px 0;
+}
+
+.s_content{
+    h2{
+        color: $mainYellow;
+        font-weight: bold;
+    }
+    p{
+        color: $feature_p;
+    }
+    button{
+        padding: 12px 43px;
+    }
+}
+
+// social end
