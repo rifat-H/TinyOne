@@ -94,7 +94,8 @@ header {
 
 .social {
     background-color: $footerBgc;
-    padding: 50px 0;
+    padding-top: 100px;
+    padding-bottom: 50px;
 
     h2 {
         color: $mainYellow;
@@ -103,15 +104,48 @@ header {
 
     p {
         color: $feature_p;
+        margin-bottom: 30px;
     }
 
     button {
+        background-color: $mainYellow;
+        border: none;
+        font-weight: bold;
         padding: 12px 31%;
+        margin-left: -32%;
+        &:hover{
+            background-color: #ddbe23;
+            border: none;
+        }
     }
 
     input{
-        padding: 24px 15px;
+        padding: 24px 16px;
+        width: 91%;
+        margin-left: 7%;
     }
 }
 
+.cus_icon{
+    color: $mainYellow;
+    padding: 43px 2%;
+}
+
 // social end
+
+// footer start
+
+footer{
+    background-color: $footerBgc;
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    &:hover{
+        color: $mainYellow;
+        text-decoration: none;
+    }
+}
+
+// footer end

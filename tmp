@@ -1,6 +1,5 @@
-->Print CV;
-->try css selector; ex: (.className > element) 
-->wrap everything that is possible
+->wrap everything that is possible. and try different selector approach
+->Add Hover Color everywhere
 ->Use right font style and font weight 
 ->Make everything Responsive 
 

@@ -59,7 +59,8 @@ header {
 
 .social {
   background-color: #232527;
-  padding: 50px 0;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .social h2 {
@@ -69,13 +70,44 @@ header {
 
 .social p {
   color: #898989;
+  margin-bottom: 30px;
 }
 
 .social button {
+  background-color: #ffd500;
+  border: none;
+  font-weight: bold;
   padding: 12px 31%;
+  margin-left: -32%;
+}
+
+.social button:hover {
+  background-color: #ddbe23;
+  border: none;
 }
 
 .social input {
-  padding: 24px 15px;
+  padding: 24px 16px;
+  width: 91%;
+  margin-left: 7%;
+}
+
+.cus_icon {
+  color: #ffd500;
+  padding: 43px 2%;
+}
+
+footer {
+  background-color: #232527;
+  padding-bottom: 50px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #ffd500;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
