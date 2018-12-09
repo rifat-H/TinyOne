@@ -9,7 +9,7 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
-i{
+i {
     font-size: 40px;
     padding: 10px 0;
 }
@@ -83,13 +83,13 @@ header {
 
 // features start
 
-.features{
+.features {
     padding: 100px 0;
 }
 
 .f_title {
 
-    h5{
+    h5 {
         margin-bottom: 80px;
     }
 }
@@ -98,22 +98,28 @@ header {
 
 // social start
 
-.social{
+.social {
     background-color: $footerBgc;
     padding: 50px 0;
-}
 
-.s_content{
-    h2{
+    h2 {
         color: $mainYellow;
         font-weight: bold;
     }
-    p{
+
+    p {
         color: $feature_p;
     }
-    button{
-        padding: 12px 43px;
+
+    button {
+        padding: 12px 31%;
+    }
+
+    input{
+        padding: 24px 15px;
     }
 }
+
+
 
 // social end

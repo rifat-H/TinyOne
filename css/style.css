@@ -62,16 +62,20 @@ header {
   padding: 50px 0;
 }
 
-.s_content h2 {
+.social h2 {
   color: #ffd500;
   font-weight: bold;
 }
 
-.s_content p {
+.social p {
   color: #898989;
 }
 
-.s_content button {
-  padding: 12px 43px;
+.social button {
+  padding: 12px 31%;
+}
+
+.social input {
+  padding: 24px 15px;
 }
 /*# sourceMappingURL=style.css.map */

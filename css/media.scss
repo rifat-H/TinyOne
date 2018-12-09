@@ -10,8 +10,9 @@
         margin-top: 10px;
         text-align: right;
     }
+
     // header end
- }
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -22,8 +23,24 @@
         margin-top: 10px;
         text-align: right;
     }
+
     // header end
- }
+
+    // feature start
+
+    .social {
+        button {
+            padding: 12px 20%;
+            margin-right: 13%;
+        }
+        input{
+            margin-left: 10%;
+            padding-right: 10%;
+        }
+    }
+
+    // feature end
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -34,16 +51,13 @@
         margin-top: 10px;
         text-align: right;
     }
+
     // header end
 
- }
+}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    
- }
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
-    
- }
+@media (min-width: 1200px) {}
