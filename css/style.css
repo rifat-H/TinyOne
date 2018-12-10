@@ -18,11 +18,15 @@ header {
   padding: 30px 0;
 }
 
-.menu ul li a {
+nav a {
   padding-right: 51px !important;
   font-size: 21px;
   font-weight: bold;
   color: #010101 !important;
+}
+
+nav a:hover {
+  color: white !important;
 }
 
 .slider {
@@ -98,7 +102,7 @@ header {
 }
 
 .social button:hover {
-  background-color: #ddbe23;
+  background-color: white;
   border: none;
 }
 
