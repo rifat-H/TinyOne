@@ -96,6 +96,7 @@ header {
 }
 
 .f_title {
+    margin: 0 13%;
 
     h5 {
         margin-bottom: 80px;
@@ -146,7 +147,8 @@ header {
 .cus_icon {
     color: $mainYellow;
     padding: 43px 2%;
-    &:hover{
+
+    &:hover {
         color: white;
     }
 }

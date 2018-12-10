@@ -65,6 +65,10 @@ header {
   color: #ffd500;
 }
 
+.f_title {
+  margin: 0 13%;
+}
+
 .f_title h5 {
   margin-bottom: 80px;
 }
