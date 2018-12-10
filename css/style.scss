@@ -14,7 +14,26 @@ i {
     padding: 10px 0;
 }
 
+// text style start
 
+.title{
+    font-size: 32px;
+    color: $mainFontColor;
+    font-weight: bold;
+}
+
+.subtitle{
+    font-size: 20px;
+    color: $sliderTitle1;
+}
+
+.subtitle2{
+    font-size: 16px;
+    color: $sliderTitle2;
+}
+
+
+// text style end
 
 // global end
 
@@ -87,6 +106,16 @@ nav {
 .features {
     padding: 100px 0;
 
+    h2{
+        font-size: 22px;
+        color: $mainFontColor;
+        // font-weight: bold;
+    }
+    p{
+        font-size: 16px;
+        color: $feature_p;
+    }
+
     i {
         color: black;
 
@@ -118,6 +147,7 @@ nav {
     h2 {
         color: $mainYellow;
         font-weight: bold;
+        font-size: 32px;
     }
 
     p {

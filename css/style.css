@@ -13,6 +13,22 @@ i {
   padding: 10px 0;
 }
 
+.title {
+  font-size: 32px;
+  color: #010101 !important;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #313841;
+}
+
+.subtitle2 {
+  font-size: 16px;
+  color: #555555;
+}
+
 header {
   background: #ffd500;
   padding: 30px 0;
@@ -61,6 +77,16 @@ nav a:hover {
   padding: 100px 0;
 }
 
+.features h2 {
+  font-size: 22px;
+  color: #010101 !important;
+}
+
+.features p {
+  font-size: 16px;
+  color: #898989;
+}
+
 .features i {
   color: black;
 }
@@ -86,6 +112,7 @@ nav a:hover {
 .social h2 {
   color: #ffd500;
   font-weight: bold;
+  font-size: 32px;
 }
 
 .social p {
