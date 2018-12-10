@@ -4,31 +4,65 @@
 }
 
 @media (max-width: 575.98px) {
-  .menu ul li a {
+  nav a {
     padding-right: 0 !important;
     margin-top: 10px;
     text-align: right;
+  }
+  .slider {
+    padding-top: 0;
+    padding-bottom: 35px;
+  }
+  .cus_indicator {
+    bottom: -35px;
+  }
+  .s_content h2 {
+    margin-top: 20px;
+  }
+  .icons {
+    margin-left: 24%;
+  }
+  .features i {
+    margin-right: 88%;
+    margin-bottom: -7px;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .menu ul li a {
+  nav a {
     padding-right: 0 !important;
-    margin-top: 10px;
+    margin-top: 1px;
     text-align: right;
+  }
+  .slider {
+    padding-top: 0;
+    padding-bottom: 35px;
+  }
+  .cus_indicator {
+    bottom: -35px;
+  }
+  .s_content h2 {
+    margin-top: 20px;
+  }
+  .icons {
+    margin-left: 32%;
   }
   .social button {
     padding: 12px 20%;
-    margin-right: 13%;
+    margin-right: 2%;
   }
   .social input {
-    margin-left: 10%;
+    margin-left: 17%;
     padding-right: 10%;
+  }
+  .features i {
+    margin-right: 62%;
+    margin-bottom: 23px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .menu ul li a {
+  nav a {
     padding-right: 0 !important;
     margin-top: 10px;
     text-align: right;

@@ -5,37 +5,108 @@
 @media (max-width: 575.98px) {
 
     // header start
-    .menu ul li a {
-        padding-right: 0 !important;
-        margin-top: 10px;
-        text-align: right;
+    nav {
+        a {
+            padding-right: 0 !important;
+            margin-top: 10px;
+            text-align: right;
+        }
     }
 
     // header end
+
+    // slider start
+
+    .slider {
+        padding-top: 0;
+        padding-bottom: 35px;
+    }
+
+    .cus_indicator {
+        bottom: -35px;
+    }
+
+    .s_content {
+
+        h2 {
+            margin-top: 20px;
+        }
+    }
+
+    .icons {
+        margin-left: 24%;
+    }
+
+    // slider end
+
+    // features start
+
+    .features {
+        i {
+            margin-right: 88%;
+            margin-bottom: -7px;
+        }
+    }
+
+    // features end
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
 
     // header start
-    .menu ul li a {
-        padding-right: 0 !important;
-        margin-top: 10px;
-        text-align: right;
+    nav {
+        a {
+            padding-right: 0 !important;
+            margin-top: 1px;
+            text-align: right;
+        }
     }
 
     // header end
+
+    // slider start
+
+    .slider {
+        padding-top: 0;
+        padding-bottom: 35px;
+    }
+
+    .cus_indicator {
+        bottom: -35px;
+    }
+
+    .s_content {
+
+        h2 {
+            margin-top: 20px;
+        }
+    }
+
+    .icons {
+        margin-left: 32%;
+    }
+
+    // slider end
 
     // feature start
 
     .social {
         button {
             padding: 12px 20%;
-            margin-right: 13%;
+            margin-right: 2%;
         }
-        input{
-            margin-left: 10%;
+
+        input {
+            margin-left: 17%;
             padding-right: 10%;
+        }
+    }
+
+    .features {
+        i {
+            margin-right: 62%;
+            margin-bottom: 23px;
         }
     }
 
@@ -46,10 +117,12 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
 
     // header start
-    .menu ul li a {
-        padding-right: 0 !important;
-        margin-top: 10px;
-        text-align: right;
+    nav {
+        a {
+            padding-right: 0 !important;
+            margin-top: 10px;
+            text-align: right;
+        }
     }
 
     // header end
