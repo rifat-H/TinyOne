@@ -16,18 +16,18 @@ i {
 
 // text style start
 
-.title{
+.title {
     font-size: 32px;
     color: $mainFontColor;
     font-weight: bold;
 }
 
-.subtitle{
+.subtitle {
     font-size: 20px;
     color: $sliderTitle1;
 }
 
-.subtitle2{
+.subtitle2 {
     font-size: 16px;
     color: $sliderTitle2;
 }
@@ -106,12 +106,13 @@ nav {
 .features {
     padding: 100px 0;
 
-    h2{
+    h2 {
         font-size: 22px;
         color: $mainFontColor;
         // font-weight: bold;
     }
-    p{
+
+    p {
         font-size: 16px;
         color: $feature_p;
     }
@@ -194,14 +195,12 @@ footer {
 
     a {
         color: white;
-    
+
         &:hover {
             color: $mainYellow;
             text-decoration: none;
         }
     }
 }
-
-
 
 // footer end
