@@ -153,11 +153,11 @@ footer {
   padding-bottom: 50px;
 }
 
-a {
+footer a {
   color: white;
 }
 
-a:hover {
+footer a:hover {
   color: #ffd500;
   text-decoration: none;
 }

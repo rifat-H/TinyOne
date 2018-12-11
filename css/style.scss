@@ -191,15 +191,17 @@ nav {
 footer {
     background-color: $footerBgc;
     padding-bottom: 50px;
-}
 
-a {
-    color: white;
-
-    &:hover {
-        color: $mainYellow;
-        text-decoration: none;
+    a {
+        color: white;
+    
+        &:hover {
+            color: $mainYellow;
+            text-decoration: none;
+        }
     }
 }
+
+
 
 // footer end

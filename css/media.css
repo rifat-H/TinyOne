@@ -26,6 +26,9 @@
     margin-right: 88%;
     margin-bottom: -7px;
   }
+  footer ul {
+    margin-bottom: 50px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -58,6 +61,9 @@
   .features i {
     margin-right: 62%;
     margin-bottom: 23px;
+  }
+  footer ul {
+    margin-bottom: 50px;
   }
 }
 
