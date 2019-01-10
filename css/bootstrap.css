@@ -6580,7 +6580,7 @@ button.bg-dark:focus {
   justify-content: flex-start !important;
 }
 
-.justify-content-end {
+.justify-content-center {
   -ms-flex-pack: end !important;
   justify-content: flex-end !important;
 }
