@@ -46,11 +46,11 @@ header {
 
 nav {
     a {
-        padding-right: 51px !important;
+        padding-right: 71px !important;
         font-size: 21px;
         font-weight: bold;
         color: $mainFontColor;
-
+        transition: .5s;
         &:hover {
             color: white !important;
         }
@@ -90,6 +90,7 @@ nav {
     }
 
     i {
+        transition: .5s;
         &:hover {
             color: white;
         }
@@ -119,6 +120,7 @@ nav {
 
     i {
         color: black;
+        transition: .5s;
 
         &:hover {
             color: $mainYellow;
@@ -162,6 +164,7 @@ nav {
         font-weight: bold;
         padding: 12px 31%;
         margin-left: -32%;
+        transition: 1s;
 
         &:hover {
             background-color: white;
@@ -179,6 +182,7 @@ nav {
 .cus_icon {
     color: $mainYellow;
     padding: 43px 2%;
+    transition: 1s;
 
     &:hover {
         color: white;
@@ -195,6 +199,7 @@ footer {
 
     a {
         color: white;
+        transition: 1s;
 
         &:hover {
             color: $mainYellow;
